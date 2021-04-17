@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		AB2F8C4C2622111D006D6EB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2F8C4B2622111D006D6EB2 /* AppDelegate.swift */; };
 		AB2F8C4E2622111D006D6EB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2F8C4D2622111D006D6EB2 /* SceneDelegate.swift */; };
-		AB2F8C502622111D006D6EB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2F8C4F2622111D006D6EB2 /* ViewController.swift */; };
 		AB2F8C532622111D006D6EB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2F8C512622111D006D6EB2 /* Main.storyboard */; };
 		AB2F8C5526221120006D6EB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2F8C5426221120006D6EB2 /* Assets.xcassets */; };
 		AB2F8C5826221120006D6EB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2F8C5626221120006D6EB2 /* LaunchScreen.storyboard */; };
 		AB2F8C6326221120006D6EB2 /* IntroToiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2F8C6226221120006D6EB2 /* IntroToiOSTests.swift */; };
 		AB2F8C6E26221120006D6EB2 /* IntroToiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2F8C6D26221120006D6EB2 /* IntroToiOSUITests.swift */; };
+		AB8D50D926291F2200387BE3 /* TableViewDiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8D50D826291F2200387BE3 /* TableViewDiffableDataSource.swift */; };
+		AB8D50DE26293C0600387BE3 /* TableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8D50DD26293C0600387BE3 /* TableViewSection.swift */; };
+		AB8D50E3262943F500387BE3 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8D50E2262943F500387BE3 /* ListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		AB2F8C482622111D006D6EB2 /* IntroToiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroToiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2F8C4B2622111D006D6EB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB2F8C4D2622111D006D6EB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB2F8C4F2622111D006D6EB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB2F8C522622111D006D6EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB2F8C5426221120006D6EB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB2F8C5726221120006D6EB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		AB2F8C6926221120006D6EB2 /* IntroToiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntroToiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2F8C6D26221120006D6EB2 /* IntroToiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroToiOSUITests.swift; sourceTree = "<group>"; };
 		AB2F8C6F26221120006D6EB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8D50D826291F2200387BE3 /* TableViewDiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDiffableDataSource.swift; sourceTree = "<group>"; };
+		AB8D50DD26293C0600387BE3 /* TableViewSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSection.swift; sourceTree = "<group>"; };
+		AB8D50E2262943F500387BE3 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 			children = (
 				AB2F8C4B2622111D006D6EB2 /* AppDelegate.swift */,
 				AB2F8C4D2622111D006D6EB2 /* SceneDelegate.swift */,
-				AB2F8C4F2622111D006D6EB2 /* ViewController.swift */,
 				AB2F8C512622111D006D6EB2 /* Main.storyboard */,
 				AB2F8C5426221120006D6EB2 /* Assets.xcassets */,
 				AB2F8C5626221120006D6EB2 /* LaunchScreen.storyboard */,
 				AB2F8C5926221120006D6EB2 /* Info.plist */,
+				AB8D50D826291F2200387BE3 /* TableViewDiffableDataSource.swift */,
+				AB8D50DD26293C0600387BE3 /* TableViewSection.swift */,
+				AB8D50E2262943F500387BE3 /* ListTableViewController.swift */,
 			);
 			path = IntroToiOS;
 			sourceTree = "<group>";
@@ -144,6 +150,8 @@
 			dependencies = (
 			);
 			name = IntroToiOS;
+			packageProductDependencies = (
+			);
 			productName = IntroToiOS;
 			productReference = AB2F8C482622111D006D6EB2 /* IntroToiOS.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +223,8 @@
 				Base,
 			);
 			mainGroup = AB2F8C3F2622111D006D6EB2;
+			packageReferences = (
+			);
 			productRefGroup = AB2F8C492622111D006D6EB2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB2F8C502622111D006D6EB2 /* ViewController.swift in Sources */,
+				AB8D50D926291F2200387BE3 /* TableViewDiffableDataSource.swift in Sources */,
+				AB8D50DE26293C0600387BE3 /* TableViewSection.swift in Sources */,
 				AB2F8C4C2622111D006D6EB2 /* AppDelegate.swift in Sources */,
+				AB8D50E3262943F500387BE3 /* ListTableViewController.swift in Sources */,
 				AB2F8C4E2622111D006D6EB2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +427,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
